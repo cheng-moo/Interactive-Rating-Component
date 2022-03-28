@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+}
+.wrapper {
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    font-family: Overpass, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 70px 0;
+    padding: 150px 0;
+}
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 21%;
+    padding: 25px 27px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.icon {
+    background-color: hsl(214, 21%, 21%);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -132px;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+   color: hsl(0, 0%, 100%);
+   font-weight: 700;
+   margin: 15px 0;
+   font-size: 1.5em;
+}
+p {
+    color: hsl(213, 7%, 51%);
+    font-weight: 400;
+}
+ul {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+ul li {
+    list-style: none;
+    background-color: hsl(214, 21%, 21%);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(217, 12%, 63%);
+    transition: all 0.3s;
+}
+ul li:hover {
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+button {
+    width: 100%;
+    padding: 11px;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 10px;
+    transition: all 0.3s;
+}
+button:hover {
+    background-color:hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+@media only screen and (max-width: 768px) {
+    body {
+        width: 375px;
+    }
+    .container {
+        width: 58%;
+    }
+    .icon {
+        left: -97px;
+    }
+}
+.selected {
+    background-color: grey;
+}
