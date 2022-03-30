@@ -43,8 +43,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactiveratingcomponent-css-flexbox-js-eventlistener-BJ6vKWGXc)
-- Live Site URL: [Add live site URL here](https://medblutex.github.io/Interactive-Rating-Component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactiveratingcomponent-css-flexbox-js-eventlistener-BJ6vKWGXc]
+- Live Site URL: [https://medblutex.github.io/Interactive-Rating-Component/]
 
 ## My process
 
