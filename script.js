@@ -1,4 +1,4 @@
-let choices = document.querySelectorAll('ul li');
+
 let rate = 0;
 const submit = document.querySelector('button');
 const ratingContainer = document.querySelector('.wrapper');
