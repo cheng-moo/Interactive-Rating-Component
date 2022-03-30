@@ -61,11 +61,17 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 So far the main points i learned doing this project : 
   -Designing with compatible colors (CSS)
+  
   -Using transitions with hovering (CSS)
+  
   -Toggling between multiple choices (JS)
+  
   -The concept of e.target and storing it's innerHTML to variable (JS)
+  
   -Using <span> tag to make a value dynamic (JS)
+  
   -removeEventListener() when i don't want the event to continue after a certain  condition (JS)
+  
   -The Concept of adding and removing classes to determine the display of an element (JS)
 
 ```css
