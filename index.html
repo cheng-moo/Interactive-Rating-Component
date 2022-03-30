@@ -11,27 +11,28 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top: 50px }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
 </head>
 <body>
-<div class="wrapper">
-  <div class="container">
-    <div class="icon"><img src="./images/icon-star.svg" alt=""></div>
-    <h2>How did we do?</h2>
-    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-    </ul>
-    <button>SUBMIT</button>
+  <!-- Rating state start -->
+  <div class="wrapper">
+    <div class="container">
+      <div class="icon"><img src="./images/icon-star.svg" alt=""></div>
+      <h2>How did we do?</h2>
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <ul class="rating-state">
+        <li class="rating-num">1</li>
+        <li class="rating-num">2</li>
+        <li class="rating-num">3</li>
+        <li class="rating-num">4</li>
+        <li class="rating-num">5</li>
+      </ul>
+      <button>SUBMIT</button>
+    </div>
   </div>
-</div>
-<!-- Rating state start -->
 
 <!--
   How did we do?
@@ -46,14 +47,22 @@
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-
-  <!-- You selected Add rating here out of 5 -->
-
-  <!-- Thank you! -->
-
- <!-- We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch! -->
-
+  <div class="result-wrapper visible">
+    <div class="result-container">
+      <div class="content">
+        <div class="logo">
+          <img src="images/illustration-thank-you.svg" alt="thankyou">
+        </div>
+        <!-- You selected Add rating here out of 5 -->
+        <p class="result">You selected <span class="selection">4</span> out of 5</p>
+        <!-- Thank you! -->
+        <h1 class="thank">Thank you!</h1>
+        <!-- We appreciate you taking the time to give a rating. If you ever need more support, 
+          don’t hesitate to get in touch! -->
+        <p class="appreciate">We appreciate you taking the time to give a rating. If you ever need more support don't hesitate to get in touch!</p>
+      </div>
+    </div>
+  </div>
   <!-- Thank you state end -->
 
   

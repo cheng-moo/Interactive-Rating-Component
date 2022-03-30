@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 * {
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 1440px;
+    height: 700px;
 }
 .wrapper {
     background-color: hsl(216, 12%, 8%);
@@ -19,8 +21,8 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 70px 0;
-    padding: 150px 0;
+    
+    padding: 100px 0;
 }
 .container {
     background-color: hsl(213, 19%, 18%);
@@ -74,6 +76,7 @@ ul li {
 ul li:hover {
     background-color:hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
 }
 button {
     width: 100%;
@@ -89,8 +92,54 @@ button {
 button:hover {
     background-color:hsl(0, 0%, 100%);
     color:hsl(25, 97%, 53%);
+    cursor: pointer;
 }
+.selected {
+    background-color: grey;
+}
+/* hide the result rating */
+.result-wrapper {
+    background-color: black;
+    width: 1440px;
+    padding: 100px 0;
+}
+.result-container {
+    background-color: hsl(213, 19%, 18%);
+    width: 300px;
+    padding: 25px 27px;
+    border-radius: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.result-container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+}
+.visible {
+    display: none;
+}
+.result {
+    background-color: hsl(214, 21%, 21%);
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+}
+.thank {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
+.appreciate {
+    color: hsl(217, 12%, 63%);
+}
+
 @media only screen and (max-width: 768px) {
+   
     body {
         width: 375px;
     }
@@ -100,7 +149,10 @@ button:hover {
     .icon {
         left: -97px;
     }
-}
-.selected {
-    background-color: grey;
+    .result-wrapper {
+        width: 375px;
+    }
+    .result-container {
+        width: 58%;
+    }
 }
